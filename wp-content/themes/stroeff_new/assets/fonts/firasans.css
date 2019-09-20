@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Light'), local('FiraSans-Light'), url('Firasanslight.woff2') format('woff2'), url('Firasanslight.woff') format('woff'), url('Firasanslight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+.firaLight {
+    font-family: 'Fira Sans';
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Regular'), local('FiraSans-Regular'), url('Firasansregular.woff2') format('woff2'), url('Firasansregular.woff') format('woff'), url('Firasansregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+.firaReg {
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Bold'), local('FiraSans-Bold'), url('Firasansbold.woff2') format('woff2'), url('Firasansbold.woff') format('woff'), url('Firasansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+.firaBold {
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-style: normal;
+}

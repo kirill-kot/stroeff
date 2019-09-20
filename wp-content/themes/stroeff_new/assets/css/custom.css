@@ -1,0 +1,1083 @@
+/*шапка сайта*/
+
+* {
+	font-size: 15px;
+}
+.fullheight {
+	height: 100%;
+}
+.green-custom {
+	background-color: #669933;
+}
+.green-custom-text {
+	color: #669933;
+}
+.pink-o-grey-custom {
+	background-color: #2e282a;
+}
+.pink-o-grey-custom-text {
+	color: #2e282a;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+header {
+	height: 100px;
+}
+nav,
+nav .nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i {
+	height: 100px;
+}
+nav hr.orange-hr {
+	width: 80%;
+	margin: 0 10%;
+	border: none;
+	border-bottom: 1px solid #f57c00;
+	height: 0;
+}
+.brand-logo {
+	margin-left: 80px;
+	height: 100px;
+	width: auto;
+}
+.brand-logo img {
+	margin: 10px auto;
+	height: 80px;
+	width: auto;
+}
+.phone_header {
+	margin: 0;
+	letter-spacing: 0;
+	font-size: 28px;
+	height: 100px;
+	line-height: 100px;
+	margin-top: 5px;
+	margin-right: 80px;
+	float: right;
+	text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.6), 1px -1px 0 rgba(255, 255, 255, 0.6), -1px 1px 0 rgba(255, 255, 255, 0.6), 1px 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+/*тело сайта*/
+
+#thanks, #first {
+	/*	margin-top: 150px;*/
+}
+.back {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: url('../img/background.jpg') no-repeat;
+	background-size: 100% auto;
+}
+h1 {
+	/*	text-shadow: -2px -2px 0 rgba(255, 255, 255, 0.6), 2px -2px 0 rgba(255, 255, 255, 0.6), -2px 2px 0 rgba(255, 255, 255, 0.6), 2px 2px 0 rgba(255, 255, 255, 0.6);*/
+	text-shadow: -2px -2px 0 rgba(255, 255, 255, 0.6), 2px -2px 0 rgba(255, 255, 255, 0.6), -2px 2px 0 rgba(255, 255, 255, 0.6), 2px 2px 0 rgba(255, 255, 255, 0.6);
+	width: 80%;
+	margin: 1.5em 10%;
+}
+h4 {
+	/*	text-shadow: -2px -2px 0 rgba(46, 40, 42, 0.6), 2px -2px 0 rgba(46, 40, 42, 0.6), -2px 2px 0 rgba(46, 40, 42, 0.6), 2px 2px 0 rgba(46, 40, 42, 0.6);*/
+	text-shadow: -2px -2px 0 rgba(255, 255, 255, 0.6), 2px -2px 0 rgba(255, 255, 255, 0.6), -2px 2px 0 rgba(255, 255, 255, 0.6), 2px 2px 0 rgba(255, 255, 255, 0.6);
+	width: 80%;
+	margin: 1em 10%;
+}
+.phone_sender {
+	margin-top: 5%;
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 !important;
+	color: transparent;
+	border: 1px solid #2e282a;
+}
+.phone_sender form {
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+}
+.phone_sender .input-field {
+	padding: 10px;
+	margin: 45px -20px 20px 10px !important;
+}
+#fourth .input-field label,
+#first .input-field label {
+	top: 20px;
+}
+.occupation p,
+.advantage p,
+#first .input-field label.active {
+	font-size: 20px;
+}
+#fourth .input-field input[type=tel],
+#first .input-field input[type=tel],
+#fourth .input-field input[type=phone],
+#first .input-field input[type=phone] {
+	font-size: 28px;
+	margin: 0;
+	z-index: 100;
+	border-bottom: 1px solid #f57c00;
+	box-shadow: 0 1px 0 0 #f57c00;
+}
+#fourth .input-field input[type=tel]:focus:not([readonly]),
+#first .input-field input[type=tel]:focus:not([readonly]) {
+	border-bottom: 1px solid #f57c00;
+	box-shadow: 0 1px 0 0 #f57c00;
+}
+#fourth #sended,
+#first #sended {
+	z-index: 150;
+	font-size: 46px;
+	height: 73px;
+	line-height: 1.5;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+.advantage {
+	border: 1px solid #f57c00;
+	/*	border: 1px solid #669933;*/
+	padding: 0;
+}
+.advantage {
+	/*	background-color: #669933;*/
+	/*	margin: 10px;*/
+	padding: 10px;
+}
+.name p {
+	text-align: center;
+	min-height: 1.5em;
+}
+.secondaryPerson .name {
+	min-height: 3em;
+	vertical-align: text-top;
+}
+.occupation p {
+	text-align: center;
+}
+.bio p {
+	padding: 10px;
+}
+.mainPerson,
+.secondaryPerson {
+	padding: 10px !important;
+	border: 1px solid rgba(102, 153, 51, .25);
+}
+.mainPerson img,
+.secondaryPerson img {
+	mask-box-image: url('../img/mask.png');
+	-webkit-mask-box-image: url('../img/mask.png');
+	mask-type: luminance;
+	-webkit-mask-type: luminance;
+	mask-position: center;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+}
+.mainPerson,
+.secondaryPerson {
+	margin: 20px auto;
+}
+.toTop {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 1px solid #f57c00;
+	float: right;
+	bottom: 25px;
+	right: 25px;
+}
+.toTop a {
+	color: #f57c00;
+	height: 30px;
+	font-size: 36px;
+}
+.toTop a:hover {
+	color: #669933;
+	height: 30px;
+	font-size: 36px;
+	cursor: pointer;
+}
+.toTop:hover {
+	border: 1px solid #669933;
+}
+@media all and (min-width: 993px) {
+	#advantages .container {
+		max-width: 1366px;
+	}
+	.advantage {
+		width: 31% !important;
+		margin-left: 1% !important;
+		margin-top: 1% !important;
+		margin-bottom: 1% !important;
+	}
+	#advantages .container .row {
+		margin-bottom: 0 !important;
+	}
+	#third .description p {
+		width: 100%;
+		margin: 20px 0;
+		padding: 0 20px;
+		line-height: 2;
+	}
+	.mainPerson:hover, .secondaryPerson:hover {
+		border: 1px solid #669933;
+		padding: 15px !important;
+		background-color: rgba(46, 40, 42, .1);
+		transition-duration: .5s;
+	}
+}
+	.name {
+		text-align: center;
+	}
+.advantage {
+	width: 31%;
+	margin-left: 1% !important;
+	margin-top: 1% !important;
+	margin-bottom: 1% !important;
+	min-height: 120px !important;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.comparison table td,
+th {
+	padding: 5px 0;
+}
+.comparison table tr {
+	line-height: 1;
+}
+.comparison table td p {
+	padding-left: 20px;
+	margin: 0;
+}
+.comparison table th p {
+	text-align: center;
+}
+.comparison table td p:hover {
+	color: white;
+	background-color: rgba(255, 255, 255, .1);
+}
+.comparison table td .compDescr {
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+.comparison table td .compFooter {
+	padding: 20px 0 !important;
+	text-align: center;
+}
+.comparison table td hr {
+	background-color: transparent !important;
+}
+.mainPerson .occupation p,
+.advantage p {
+	width: 80%;
+	margin: 10px 10%;
+}
+#first .container .row {
+	margin-bottom: 0 !important;
+}
+#thanks .container, #first .container:nth-child(1) {
+	margin-top: 5%;
+}
+#first .thanks p {
+	font-size: 22px;
+}
+#thanks, #first {
+	width: 100%;
+}
+.page-footer {
+	background-color: #2e282a !important;
+}
+.page-footer a:hover {
+	color: #669933 !important;
+}
+.page-footer .footer-copyright {
+	background-color: #171415 !important;
+}
+.page-footer .footer-copyright p {
+	margin: 0;
+}
+
+hr.orange-darken-2-hr {
+	margin-top: 50px;
+	background-color: none !important;
+	color: none !important;
+	border: none;
+	border-bottom: 1px solid #f57c00;
+	width: 25%;
+}
+	#advantages {
+		padding: 20px 0;
+	}
+@media all and (min-width: 0) and (max-width: 480px) {
+	.back {
+		background-size: auto 150%;
+		background-position: top center;
+		height: 150%;
+	}
+	nav .brand-logo {
+		left: 0;
+		right: 0;
+		-webkit-transform: none !important;
+		transform: none !important;
+		margin: 10px auto;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		position: relative;
+		width: 100%;
+	}
+	nav .brand-logo img {
+		margin: 0 auto;
+		height: 45px;
+	}
+	.phone_header {
+		font-size: 125%;
+		height: 30px;
+		line-height: 30px;
+		float: left;
+		margin-top: 0;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+	h1 {
+		width: 90%;
+		margin: 1.5em 5%;
+		font-size: 200%;
+	}
+	h4 {
+		font-size: 130%;
+		width: 90%;
+		margin: 1em 5%;
+	}
+	.phone_sender .input-field {
+		margin: 20px 0 0 !important;
+	}
+	footer p, footer a {
+		font-size: 90%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 100%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 110%;
+		width: 90%;
+		margin: 0 5%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 120%;
+		height: 48px;
+		width: 90%;
+		margin-left: 0;
+		margin: -11px 5% 20px;
+		padding: 0;
+	}
+	.advantage {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.container .row {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.comparison table th p, .comparison table td p {
+		white-space: normal;
+	}.comparison table td p {
+		padding: 0;
+	}.comparison table td .compDescr {
+	min-height: 50px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 600px) {
+
+	.back {
+		background-size: cover;
+		background-position: top center;
+	}
+	nav .brand-logo {
+		left: 0;
+		right: 0;
+		-webkit-transform: none !important;
+		transform: none !important;
+		margin: 10px auto;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		position: relative;
+		width: 100%;
+	}
+	nav .brand-logo img {
+		margin: 0 auto;
+		height: 45px;
+	}
+	.phone_header {
+		font-size: 135%;
+		height: 30px;
+		line-height: 30px;
+		float: left;
+		margin-top: 0;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+	h1 {
+		width: 80%;
+		margin: 1.5em 10%;
+		font-size: 260%;
+	}
+	h4 {
+		font-size: 150%;
+		width: 80%;
+		margin: 1em 10%;
+	}
+	.phone_sender .input-field {
+		margin: 30px 0 0 !important;
+	}
+	footer p, footer a {
+		font-size: 100%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 110%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 120%;
+		width: 90%;
+		margin: 0 5%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 130%;
+		height: 48px;
+		width: 90%;
+		margin-left: 0;
+		margin: -11px 5% 20px;
+		padding: 0;
+	}
+	.advantage {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.container .row {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.comparison table th p, .comparison table td p {
+		white-space: normal;
+	}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+	.comparison table td p {
+		padding: 0;
+	}.comparison table td .compDescr {
+	min-height: 50px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+}
+@media all and (min-width: 601px) and (max-width: 767px) {
+	.back {
+		background-size: cover;
+		background-position: top center;
+	}
+	nav .brand-logo {
+		left: 0;
+		right: 0;
+		-webkit-transform: none !important;
+		transform: none !important;
+		margin: 10px auto;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		position: relative;
+		width: 100%;
+	}
+	nav .brand-logo img {
+		margin: 0 auto;
+		height: 45px;
+	}
+	.phone_header {
+		font-size: 150%;
+		height: 40px;
+		line-height: 40px;
+		float: left;
+		margin-top: 0;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+	h1 {
+		width: 80%;
+		margin: 1.5em 10%;
+		font-size: 280%;
+	}
+	h4 {
+		font-size: 170%;
+		width: 80%;
+		margin: 1em 10%;
+	}
+	.phone_sender .input-field {
+		margin: 30px 0 0 !important;
+	}
+	footer p, footer a {
+		font-size: 100%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 110%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 120%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 150%;
+		margin-top: 20px;
+		height: 64px;
+		padding: 0;
+	}
+	.advantage {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.container .row {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.comparison table th p, .comparison table td p {
+		white-space: normal;
+	}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+	.comparison table td p {
+		padding: 0;
+	}.comparison table td .compDescr {
+	min-height: 50px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+	.secondaryPerson {
+		min-height: 385px !important;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+.comparison table td .compDescr {
+	min-height: 50px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+	.back {
+		background-size: 100% auto;
+		background-position: top center;
+	}
+	#thanks, #first {
+		height: 75vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	nav .brand-logo {
+		left: 0;
+		right: 0;
+		-webkit-transform: none !important;
+		transform: none !important;
+		margin: 10px auto;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		position: relative;
+		width: 100%;
+	}
+	nav .brand-logo img {
+		margin: 0 auto;
+		height: 45px;
+	}
+	.phone_header {
+		font-size: 150%;
+		height: 40px;
+		line-height: 40px;
+		float: left;
+		margin-top: 0;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+	h1 {
+		width: 80%;
+		margin: 1em 10%;
+		font-size: 280%;
+	}
+	h4 {
+		font-size: 170%;
+		width: 80%;
+		margin: .75em 10%;
+	}
+	.phone_sender .input-field {
+		margin: 30px 0 0 !important;
+	}
+	footer p, footer a {
+		font-size: 100%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 110%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 120%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 150%;
+		margin-top: 20px;
+		height: 64px;
+		padding: 0;
+	}
+	.advantage {
+		width: 30% !important;
+		margin-left: 1% !important;
+		margin-bottom: 0 !important;
+		padding: 10px !important;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		height: 160px;
+	}
+	.advantage p {
+		width: calc(100% - 20px);
+		margin: auto 10px;
+	}
+	.container .row {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.comparison table th p, .comparison table td p {
+		white-space: normal;
+	}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+}
+@media all and (min-width: 993px) and (max-width: 1024px) {
+.comparison table td .compDescr {
+	min-height: 75px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+	.back {
+		background-size: cover;
+		background-position: top center;
+	}
+	#thanks, #first {
+		height: 70vh;
+		/*		display: flex;*/
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	h1 {
+		width: 80%;
+		margin: .75em 10%;
+		font-size: 250%;
+	}
+	h4 {
+		font-size: 150%;
+		width: 80%;
+		margin: .75em 10%;
+	}
+	.phone_sender {
+		margin-bottom: 20px;
+	}
+	.phone_sender .input-field {
+		margin: 30px 0 0 !important;
+	}
+	footer p, footer a {
+		font-size: 90%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 100%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 110%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 150%;
+		margin-top: 22px;
+		height: 64px;
+		padding: 0;
+	}
+	.advantage {
+		width: 30%;
+		margin-left: 1%;
+		margin-bottom: 0;
+	}
+	.comparison table th p, .comparison table td p {
+		white-space: normal;
+	}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+	.secondaryPerson {
+		min-height: 320px !important;
+	}
+}
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+	.back {
+		background-size: auto 125%;
+		background-position: 50% 0%;
+	}
+	#thanks, #first {
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-bottom: -50px;
+	}
+	#thanks .container, #first .container:nth-child(1) {
+		margin-top: 20px;
+	}
+	#first .container:nth-child(2) {
+		position: relative;
+		bottom: 50px;
+	}
+	h1 {
+		width: 80%;
+		margin: .75em 10%;
+		font-size: 280%;
+	}
+	h4 {
+		font-size: 180%;
+		width: 80%;
+		margin: .75em 10%;
+	}
+	.phone_sender {
+		margin-bottom: 20px;
+	}
+	#phone_sender_2 .input-field,
+	#phone_sender .input-field {
+		margin: 30px -20px 0 10px !important;
+	}
+	footer p, footer a {
+		font-size: 90%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 100%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 110%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 150%;
+		margin-top: 22px;
+		height: 64px;
+		padding: 0;
+	}
+	.advantage {
+		width: 30%;
+		margin-left: 1%;
+		margin-bottom: 0;
+	}
+	.comparison table th p, .comparison table td p {
+		white-space: normal;
+	}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+	.secondaryPerson {
+		min-height: 370px !important;
+	}
+.comparison table td .compDescr {
+	min-height: 70px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+}
+@media all and (min-width: 1281px) and (max-width: 1600px) {
+	.back {
+		background-size: 100%;
+		background-position: 0% 20%;
+	}
+	#thanks, #first {
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: -35px;
+	}
+	#thanks .container, #first .container:nth-child(1) {
+		margin-top: -100px;
+	}
+	#first .container:nth-child(2) {
+		position: relative;
+		bottom: 0;
+	}
+	h1 {
+		width: 80%;
+		margin: .75em 10%;
+		font-size: 325%;
+	}
+	h4 {
+		font-size: 200%;
+		width: 80%;
+		margin: .5em 10%;
+	}
+	#phone_sender_2 .input-field,
+	#phone_sender .input-field {
+		margin: 30px -20px 20px 10px !important;
+	}
+	footer p, footer a {
+		font-size: 105%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 115%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 135%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 200%;
+		margin-top: 22px;
+		height: 66px;
+		padding: 0;
+	}
+	.comparison table th p, .comparison table td p {
+		white-space: normal;
+	}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+	.secondaryPerson {
+		min-height: 410px !important;
+	}
+.comparison table td .compDescr {
+	min-height: 50px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+}
+@media all and (min-width: 1601px) and (max-width: 1920px) {
+	.back {
+		background-size: 110%;
+		background-position: 50% 20%;
+	}
+	#thanks, #first {
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: -35px;
+	}
+	#thanks .container, #first .container:nth-child(1) {
+		margin-top: -100px;
+	}
+	#first .container:nth-child(2) {
+		position: relative;
+		bottom: -50px;
+	}
+	h1 {
+		width: 80%;
+		margin: .9em 10%;
+		font-size: 450%;
+	}
+	h4 {
+		font-size: 275%;
+		width: 80%;
+		margin: .7em 10%;
+	}
+	#phone_sender_2 .input-field,
+	#phone_sender .input-field {
+		margin: 50px -20px 20px 10px !important;
+	}
+	footer p, footer a {
+		font-size: 120%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 140%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 180%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 250%;
+		margin-top: 30px;
+		height: 78px;
+		padding: 0;
+	}
+	.comparison table th p, .comparison table td p {
+		white-space: normal;
+	}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+	.secondaryPerson {
+		min-height: 480px !important;
+	}
+.comparison table td .compDescr {
+	min-height: 50px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+}
+@media all and (min-width: 1921px) {
+	.back {
+		background-size: cover;
+		background-position: center;
+	}
+	#thanks, #first {
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	#thanks .container, #first .container:nth-child(1) {
+		margin-top: -100px;
+	}
+	#first .container:nth-child(2) {
+		position: relative;
+		bottom: -100px;
+	}
+	h1 {
+		width: 80%;
+		margin: .9em 10%;
+		font-size: 525%;
+	}
+	h4 {
+		font-size: 325%;
+		width: 80%;
+		margin: .7em 10%;
+	}
+	#phone_sender_2 .input-field,
+	#phone_sender .input-field {
+		margin: 70px -20px 20px 10px !important;
+	}
+	footer p, footer a {
+		font-size: 160%;
+	}
+	.name p, .comparison p,
+	#third .description p,
+	.bio p,
+	.occupation p,
+	.advantage p,
+	#first .input-field label.active {
+		font-size: 180%;
+	}
+	#fourth .input-field input[type=tel],
+	#first .input-field input[type=tel] {
+		font-size: 220%;
+	}
+	#fourth #sended,
+	#first #sended {
+		font-size: 300%;
+		margin-top: 30px;
+		height: 100px;
+		padding: 0;
+	}
+.comparison table td .compDescr {
+	min-height: 90px;
+	line-height: 1;
+	padding: 20px 0 !important;
+}
+	.comparison table th p, .comparison table td p {
+		padding: 10px 0;
+		white-space: normal;
+	}
+	.comparison table th,
+	, .comparison table td {
+		width: 100%;
+		display: block;float: left;
+	}
+	.secondaryPerson {
+		min-height: 540px !important;
+	}
+}
